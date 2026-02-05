@@ -1,0 +1,119 @@
+/* PAGE BACKGROUND */
+.nn-page {
+  min-height: 100vh;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* MAIN CARD */
+.card {
+  width: 100%;
+  max-width: 600px;
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 16px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  text-align: center;
+}
+
+/* TITLES */
+.card h1 {
+  font-size: 26px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* FORM */
+.nn-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.nn-form input,
+.nn-form select {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #dcdcdc;
+  font-size: 14px;
+  outline: none;
+  background: #fff;
+  transition: 0.2s;
+}
+
+.nn-form input:focus,
+.nn-form select:focus {
+  border-color: #000;
+}
+
+/* BUTTON */
+.calculate-btn {
+  margin-top: 12px;
+  padding: 13px;
+  border-radius: 8px;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.calculate-btn:hover {
+  background: #333;
+}
+
+/* RESULT SECTION */
+.score-result {
+  margin-top: 25px;
+  text-align: left;
+}
+
+.score-result h2 {
+  text-align: center;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+/* MATCH CARD */
+.match-card {
+  background: #fafafa;
+  padding: 14px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #e5e5e5;
+  transition: 0.25s;
+}
+
+.match-card:hover {
+  background: #f2f2f2;
+  transform: translateX(4px);
+}
+
+.match-card p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #000;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .card {
+    padding: 25px;
+  }
+
+  .card h1 {
+    font-size: 22px;
+  }
+}

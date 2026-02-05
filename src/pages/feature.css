@@ -1,0 +1,22 @@
+.feature-page {
+  min-height: 100vh;
+  background: #111;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding: 2rem;
+}
+
+.feature-page h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.feature-page p {
+  font-size: 1.1rem;
+  color: #ccc;
+}
